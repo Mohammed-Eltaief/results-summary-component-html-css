@@ -24,6 +24,11 @@ body>p{
     height:100%;
 }
 .flex-container>.result{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
  width: 100%;
  height: 40%;
  padding: 20px;
@@ -32,7 +37,22 @@ body>p{
   
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
 }
+.result>.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    background-color:hsla(256, 72%, 46%, 1);/* For browsers that do not support gradients */
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+}
 
+.range{
+    font-size: 400%;
+}
 .flex-container>.summary{
     width: 100%;
     height: 60%;
