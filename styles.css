@@ -1,3 +1,5 @@
+@import url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -7,12 +9,14 @@
 
 body{
     display: flex;
-   
+    font-family: 'Hanken Grotesk', sans-serif;
     background-color: white;
     padding: 0px;
     margin: 0px;
 }
-
+body>p{
+    font-size: 18px;
+}
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -24,8 +28,9 @@ body{
  height: 40%;
  padding: 20px;
  border-radius: 0px 0px 20px 20px;
- background-color: hsl(241, 81%, 54%);
- 
+ background-color: hsl(241, 81%, 54%);/* For browsers that do not support gradients */
+  
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
 }
 
 .flex-container>.summary{
