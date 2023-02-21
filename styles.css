@@ -1,4 +1,4 @@
-@import url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+@import url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -56,14 +56,16 @@ body>p{
 
 .range::first-line{
     font-size: 50px;
+  
     color: white;
 }
 .range>span{
-    font-size: 18xp;
-    color: hsl(241, 100%, 89%);
+    font-size: 14xp;
+    color: hsla(241, 100%, 89%,0.5);
 }
 .result>h2{
     color: white;
+    letter-spacing: 2px;
 }
 .flex-container>.summary{
     width: 100%;
