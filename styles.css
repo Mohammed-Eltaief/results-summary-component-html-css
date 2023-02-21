@@ -73,3 +73,22 @@ body>p{
     background-color: white;
     padding: 20px;
 }
+.summary>.reaction{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    
+    border-radius: 10px;
+
+    border: 1px solid hsl(0, 100%, 67%)  ;
+    height: 50px;
+    background-color: hsla(0, 100%, 67%,0.1);
+    color:hsl(0, 100%, 67%) ;
+}
+.reaction>.purcent{ 
+   position: absolute;
+   top: 0px;
+   right: 20px;
+   color: hsl(0, 0%, 0%);
+}
