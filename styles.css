@@ -74,6 +74,9 @@ body>p{
     padding: 30px;
     font-weight: bold;
 }
+.summary>div{
+    
+}
 .summary>.reaction{
     display: flex;
     justify-content: left;
