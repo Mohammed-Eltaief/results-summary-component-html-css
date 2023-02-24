@@ -91,6 +91,7 @@ body>p{
     right: 20px;
     color: hsl(0, 0%, 0%);
 }
+.purcent>span{color: hsla(0, 0%, 0%,0.5);}
 .summary>div>.Name{
   padding-left: 20px;
 }
