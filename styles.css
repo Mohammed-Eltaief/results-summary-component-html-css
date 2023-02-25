@@ -80,7 +80,7 @@ body>p{
     align-items: center;
     position: relative;
     border-radius: 10px;
-    height: 50px;
+    height: 60px;
     margin-bottom: 20px;
     padding-left: 20px;
     
@@ -118,4 +118,15 @@ body>p{
     background-color: hsla(234, 85%, 45%,0.1);
     color:hsl(234, 85%, 45%) ;
     
+  }
+  .summary>button{
+     text-align: center;
+     height: 60px;
+     width: 100%;
+     border-radius: 30px;
+     border: none;
+     color: white;
+     font-size: 20px;
+     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+
   }
