@@ -81,6 +81,7 @@ body>p{
     position: relative;
     border-radius: 10px;
     height: 60px;
+    border:1px solid transparent;
     margin-bottom: 20px;
     padding-left: 20px;
     
@@ -90,6 +91,76 @@ body>p{
     top: 0px;
     right: 20px;
     color: hsl(0, 0%, 0%);
+}
+/* coin style*/
+.summary>div>.top-left{
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  height: 30px;
+  width: 50px;
+
+  border-radius: 15px;
+  border:1px solid transparent;
+}
+.summary>div>.top-right{
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  height: 30px;
+  width: 50px;
+
+  border-radius: 15px;
+  border:1px solid transparent;
+}
+.summary>div>.bottom-left{
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  height: 30px;
+  width: 50px;
+
+  border-radius: 15px;
+  border:1px solid transparent;
+}
+/*.summary>div>.bottom-right{
+ 
+}*/
+.summary>.reaction>.top-left{
+  background-image: linear-gradient(transparent,transparent),
+  linear-gradient( 135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
+
+background-origin: border-box;
+background-clip: padding-box,border-box;
+}
+.summary>.reaction>.top-right{
+  background-image: linear-gradient(transparent,transparent),
+                      linear-gradient( -135deg,hsla(0, 100%, 67%,0.5) 18%,transparent 18% 100% );
+    
+    background-origin: border-box;
+    background-clip: padding-box,border-box;
+}
+.summary>.reaction>.bottom-right{
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  height: 20px;
+  width: 30px;
+  
+  border-radius: 10px;
+  border:1px solid transparent;
+  background-image: linear-gradient(orange,orange),
+                    linear-gradient( -45deg,rgb(96, 29, 3) 25%,transparent 25% 100% );
+  
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.summary>.reaction>.bottom-left{
+  background-image: linear-gradient(transparent,transparent),
+                      linear-gradient( 45deg,hsla(0, 100%, 67%,0.5) 25%,transparent 25% 100% );
+    
+    background-origin: border-box;
+    background-clip: padding-box,border-box;
 }
 .purcent>span{color: hsla(0, 0%, 0%,0.5);}
 .summary>div>.Name{
