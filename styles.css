@@ -73,6 +73,8 @@ body>p{
     background-color: white;
     padding: 30px;
     font-weight: bold;
+    
+    
 }
 .summary>div{
     display: flex;
@@ -84,7 +86,7 @@ body>p{
     border:1px solid transparent;
     margin-bottom: 20px;
     padding-left: 20px;
-    
+   
 }
 .summary>div>.purcent{
     position: absolute;
@@ -99,7 +101,7 @@ body>p{
   left: -2px;
   height: 30px;
   width: 50px;
-
+  
   border-radius: 15px;
   border:1px solid transparent;
 }
@@ -119,7 +121,7 @@ body>p{
   left: -2px;
   height: 30px;
   width: 50px;
-
+  
   border-radius: 15px;
   border:1px solid transparent;
 }
@@ -136,7 +138,7 @@ background-clip: padding-box,border-box;
 .summary>.reaction>.top-right{
   background-image: linear-gradient(transparent,transparent),
                       linear-gradient( -135deg,hsla(0, 100%, 67%,0.5) 18%,transparent 18% 100% );
-    
+   
     background-origin: border-box;
     background-clip: padding-box,border-box;
 }
@@ -154,11 +156,12 @@ background-clip: padding-box,border-box;
   
   background-origin: border-box;
   background-clip: content-box,border-box;
+  
 }
 .summary>.reaction>.bottom-left{
   background-image: linear-gradient(transparent,transparent),
                       linear-gradient( 45deg,hsla(0, 100%, 67%,0.5) 25%,transparent 25% 100% );
-    
+   
     background-origin: border-box;
     background-clip: padding-box,border-box;
 }
@@ -167,10 +170,10 @@ background-clip: padding-box,border-box;
   padding-left: 20px;
 }
 .summary>.reaction{
-   
+    
     background-color: hsla(0, 100%, 67%,0.1);
     color:hsl(0, 100%, 67%) ;
-
+ 
   }
   .summary>.memory{
    
