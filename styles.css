@@ -115,6 +115,7 @@ body>p{
 
   border-radius: 15px;
   border:1px solid transparent;
+  z-index: -1;
 }
 .summary>div>.bottom-left{
   position: absolute;
@@ -125,10 +126,19 @@ body>p{
   
   border-radius: 15px;
   border:1px solid transparent;
+  z-index: -1;
 }
-/*.summary>div>.bottom-right{
- 
-}*/
+.summary>div>.bottom-right{
+   position: absolute;
+  bottom: -1px;
+  right: -1px;
+  height: 20px;
+  width: 30px;
+  
+  border-radius: 10px;
+  border:1px solid transparent;
+  z-index: -1;
+}
 .summary>.reaction>.top-left{
   background-image: linear-gradient(white,white),
   linear-gradient( 135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
@@ -142,23 +152,16 @@ background-clip: padding-box,border-box;
    
     background-origin: border-box;
     background-clip: padding-box,border-box;
-    z-index: -1;
+   
 }
 .summary>.reaction>.bottom-right{
-  position: absolute;
-  bottom: -1px;
-  right: -1px;
-  height: 20px;
-  width: 30px;
   
-  border-radius: 10px;
-  border:1px solid transparent;
   background-image: linear-gradient(white,white),
                     linear-gradient( -45deg,hsla(0, 100%, 67%,0.5) 20%,transparent 25% 100% );
   
   background-origin: border-box;
   background-clip: content-box,border-box;
-  z-index: -1;
+
 }
 .summary>.reaction>.bottom-left{
   background-image: linear-gradient(white,white),
@@ -166,7 +169,7 @@ background-clip: padding-box,border-box;
    
     background-origin: border-box;
     background-clip: padding-box,border-box;
-    z-index: -1;
+   
 }
 .purcent>span{color: hsla(0, 0%, 0%,0.5);}
 .summary>div>.Name{
@@ -183,6 +186,38 @@ background-clip: padding-box,border-box;
     background-color: hsla(39, 100%, 56%,0.1);
     color:hsl(39, 100%, 56%);
     
+  }
+  .summary>.memory>.top-left{
+    background-image: linear-gradient(white,white),
+    linear-gradient( 135deg,hsla(39, 100%, 56%,0.5) 10%,transparent 18% 100% );
+  
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  }
+  .summary>.memory>.top-right{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( -135deg,hsla(39, 100%, 56%,0.5) 10%,transparent 18% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
+  .summary>.memory>.bottom-right{
+    
+    background-image: linear-gradient(white,white),
+                      linear-gradient( -45deg,hsla(39, 100%, 56%,0.5) 20%,transparent 25% 100% );
+    
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  
+  }
+  .summary>.memory>.bottom-left{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( 45deg,hsla(39, 100%, 56%,0.5) 20%,transparent 25% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
   }
   .summary>.Verbal{
    
