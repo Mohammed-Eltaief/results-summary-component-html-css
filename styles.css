@@ -139,54 +139,62 @@ body>p{
   border:1px solid transparent;
   z-index: -1;
 }
-.summary>.reaction>.top-left{
-  background-image: linear-gradient(white,white),
-  linear-gradient( 135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
 
-background-origin: border-box;
-background-clip: padding-box,border-box;
-}
-.summary>.reaction>.top-right{
-  background-image: linear-gradient(white,white),
-                      linear-gradient( -135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
-   
-    background-origin: border-box;
-    background-clip: padding-box,border-box;
-   
-}
-.summary>.reaction>.bottom-right{
-  
-  background-image: linear-gradient(white,white),
-                    linear-gradient( -45deg,hsla(0, 100%, 67%,0.5) 20%,transparent 25% 100% );
-  
-  background-origin: border-box;
-  background-clip: content-box,border-box;
-
-}
-.summary>.reaction>.bottom-left{
-  background-image: linear-gradient(white,white),
-                      linear-gradient( 45deg,hsla(0, 100%, 67%,0.5) 20%,transparent 25% 100% );
-   
-    background-origin: border-box;
-    background-clip: padding-box,border-box;
-   
-}
 .purcent>span{color: hsla(0, 0%, 0%,0.5);}
 .summary>div>.Name{
   padding-left: 20px;
 }
+
+
 .summary>.reaction{
     
     background-color: hsla(0, 100%, 67%,0.1);
     color:hsl(0, 100%, 67%) ;
  
   }
+  /*Add border to corners*/
+  .summary>.reaction>.top-left{
+    background-image: linear-gradient(white,white),
+    linear-gradient( 135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
+  
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  }
+  .summary>.reaction>.top-right{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( -135deg,hsla(0, 100%, 67%,0.5) 10%,transparent 18% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
+  .summary>.reaction>.bottom-right{
+    
+    background-image: linear-gradient(white,white),
+                      linear-gradient( -45deg,hsla(0, 100%, 67%,0.5) 20%,transparent 25% 100% );
+    
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  
+  }
+  .summary>.reaction>.bottom-left{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( 45deg,hsla(0, 100%, 67%,0.5) 20%,transparent 25% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
+
+
+
   .summary>.memory{
    
     background-color: hsla(39, 100%, 56%,0.1);
     color:hsl(39, 100%, 56%);
     
   }
+  /*Add border to corners*/
   .summary>.memory>.top-left{
     background-image: linear-gradient(white,white),
     linear-gradient( 135deg,hsla(39, 100%, 56%,0.5) 10%,transparent 18% 100% );
@@ -219,12 +227,16 @@ background-clip: padding-box,border-box;
       background-clip: padding-box,border-box;
      
   }
+
+
+
   .summary>.Verbal{
    
     background-color: hsla(166, 100%, 37%,0.1);
     color:hsl(166, 100%, 37%) ;
     
   }
+  /*Add border to corners*/
   .summary>.Verbal>.top-left{
     background-image: linear-gradient(white,white),
     linear-gradient( 135deg,hsla(166, 100%, 37%,0.5) 10%,transparent 18% 100% );
@@ -257,12 +269,16 @@ background-clip: padding-box,border-box;
       background-clip: padding-box,border-box;
      
   }
+
+
+
   .summary>.visual{
    
     background-color: hsla(234, 85%, 45%,0.1);
     color:hsl(234, 85%, 45%) ;
     
   }
+  /*Add border to corners*/
   .summary>.visual>.top-left{
     background-image: linear-gradient(white,white),
     linear-gradient( 135deg,hsla(234, 85%, 45%,0.5) 10%,transparent 18% 100% );
