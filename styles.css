@@ -225,11 +225,75 @@ background-clip: padding-box,border-box;
     color:hsl(166, 100%, 37%) ;
     
   }
+  .summary>.Verbal>.top-left{
+    background-image: linear-gradient(white,white),
+    linear-gradient( 135deg,hsla(166, 100%, 37%,0.5) 10%,transparent 18% 100% );
+  
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  }
+  .summary>.Verbal>.top-right{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( -135deg,hsla(166, 100%, 37%,0.5) 10%,transparent 18% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
+  .summary>.Verbal>.bottom-right{
+    
+    background-image: linear-gradient(white,white),
+                      linear-gradient( -45deg,hsla(166, 100%, 37%,0.5) 20%,transparent 25% 100% );
+    
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  
+  }
+  .summary>.Verbal>.bottom-left{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( 45deg,hsla(166, 100%, 37%,0.5) 20%,transparent 25% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
   .summary>.visual{
    
     background-color: hsla(234, 85%, 45%,0.1);
     color:hsl(234, 85%, 45%) ;
     
+  }
+  .summary>.visual>.top-left{
+    background-image: linear-gradient(white,white),
+    linear-gradient( 135deg,hsla(234, 85%, 45%,0.5) 10%,transparent 18% 100% );
+  
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  }
+  .summary>.visual>.top-right{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( -135deg,hsla(234, 85%, 45%,0.5) 10%,transparent 18% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
+  }
+  .summary>.visual>.bottom-right{
+    
+    background-image: linear-gradient(white,white),
+                      linear-gradient( -45deg,hsla(234, 85%, 45%,0.5) 20%,transparent 25% 100% );
+    
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  
+  }
+  .summary>.visual>.bottom-left{
+    background-image: linear-gradient(white,white),
+                        linear-gradient( 45deg,hsla(234, 85%, 45%,0.5) 20%,transparent 25% 100% );
+     
+      background-origin: border-box;
+      background-clip: padding-box,border-box;
+     
   }
   .summary>button{
      text-align: center;
