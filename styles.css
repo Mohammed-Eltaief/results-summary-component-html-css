@@ -1,7 +1,6 @@
 @import url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 * {
     box-sizing: border-box;
@@ -9,6 +8,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: white;
     padding: 0px;
@@ -19,7 +19,7 @@ body>p{
 }
 .flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row wrap;
     width: 100%;
     height:100%;
 }
@@ -67,6 +67,9 @@ body>p{
     color: white;
     letter-spacing: 2px;
 }
+
+
+
 .flex-container>.summary{
     width: 100%;
     height: 60%;
@@ -326,3 +329,44 @@ body>p{
     background-image:none;
     background-color: rgb(52, 52, 52);
   }
+
+  
+  /* Responsive layout - when the screen is more than 600px wide,
+  make the two containers stacks horizontally in the center*/
+  @media screen and (min-width: 600px) {
+    * {
+      box-sizing: border-box;
+    }
+    body{
+      width: 800px;
+      display: flex;
+     
+      justify-content: center;
+      align-items: center;
+    }
+    
+     .flex-container{
+      width: 600px;
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     
+    }     
+
+    .flex-container>.result{
+     width: 390px;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+   }
+
+   .flex-container>.summary{
+    width: 400px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    background-color: antiquewhite;
+   }
+  }
+body>.attribution { font-size: 11px; text-align: center; }
+body>.attribution a { color: hsl(228, 45%, 44%); }
